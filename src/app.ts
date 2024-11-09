@@ -1,4 +1,4 @@
-import testRouter from './routes/testRoutes.ts';
+import testRouter from './routes/testRoutes';
 import express from 'express';
 
 const app = express();

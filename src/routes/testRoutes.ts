@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { getTestItem } from '../controllers/testController.ts';
-import { logMiddleware } from '../middlewares/testMiddlewares.ts';
+import { getTestItem } from '../controllers/testController';
+import { logMiddleware } from '../middlewares/testMiddlewares';
 
 const router = Router();
 

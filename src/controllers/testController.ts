@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { formatResponse } from '../utils/responseFormatter.ts';
+import { formatResponse } from '../utils/responseFormatter';
 
 export function getTestItem(req: Request, res: Response) {
 	const formattedResponse = formatResponse({

@@ -18,6 +18,7 @@ export default [
 		rules: {
 			...eslintJs.configs.recommended.rules,
 			...tsEslint.configs.recommended.rules,
+			'@typescript-eslint/no-require-imports': 'false',
 		},
 	},
 ];
