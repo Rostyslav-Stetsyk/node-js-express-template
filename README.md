@@ -81,6 +81,7 @@ docker compose up --build -d
 
 I suggest the following structure of the project, but you can change it for yourself, for example, put the tests in a separate folder
 
+```
 /project-root
 │
 ├── /src
@@ -125,6 +126,7 @@ I suggest the following structure of the project, but you can change it for your
 ├── package.json # Project dependencies and scripts
 ├── README.md # File with information about the project (what you are reading right now 👀)
 └── tsconfig.json # TypeScript configuration
+```
 
 ## Testing
 
