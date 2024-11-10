@@ -85,47 +85,47 @@ I suggest the following structure of the project, but you can change it for your
 /project-root
 │
 ├── /src
-│ ├── /config # Configurations for database connections, external APIs, etc
-│ │ └── swagger.ts # Example: swagger configuration
+│ ├── /config               # Configurations for database connections, external APIs, etc
+│ │ └── swagger.ts          # Example: swagger configuration
 │ │
-│ ├── /controllers # Request processing logic
+│ ├── /controllers          # Request processing logic
 │ │ ├── userController.ts
 │ │ └── authController.ts
 │ │
-│ ├── /models # Models for working with a database (ODM/ORM)
+│ ├── /models               # Models for working with a database (ODM/ORM)
 │ │ ├── userModel.ts
 │ │ └── productModel.ts
 │ │
-│ ├── /routes # Routes for each resource
+│ ├── /routes               # Routes for each resource
 │ │ ├── userRoutes.ts
 │ │ └── authRoutes.ts
 │ │
-│ ├── /middlewares # Middleware for authorization, error handling, etc
+│ ├── /middlewares          # Middleware for authorization, error handling, etc
 │ │ ├── authMiddleware.ts
 │ │ └── errorMiddleware.ts
 │ │
-│ ├── /utils # Support functions and utilities
+│ ├── /utils                # Support functions and utilities
 │ │ ├── errorHandler.ts
 │ │ └── emailService.ts
 │ │
-│ ├── app.ts # The main configuration file of the Express application
-| └── server.ts # Entry point to start the server
+│ ├── app.ts                # The main configuration file of the Express application
+| └── server.ts             # Entry point to start the server
 |
-├── /tests # Tests for controllers, models, routes, etc
+├── /tests                  # Tests for controllers, models, routes, etc
 │ ├── userController.test.js
 │ └── authController.test.js
 |
-├── .env # Environment variables for storing confidential data
-├── .gitignore # Files and folders that Git ignores
-├── .prettierrs # Prettier configuration
-├── docker-compose.yml # Docker Compose configuration file
-├── Dockerfile # Docker configuration file
-├── eslint.config.ts # ESLint configuration
-├── jest.config.ts # Jest configuration
-├── LICENSE # Project license
-├── package.json # Project dependencies and scripts
-├── README.md # File with information about the project (what you are reading right now 👀)
-└── tsconfig.json # TypeScript configuration
+├── .env                    # Environment variables for storing confidential data
+├── .gitignore              # Files and folders that Git ignores
+├── .prettierrs             # Prettier configuration
+├── docker-compose.yml      # Docker Compose configuration file
+├── Dockerfile              # Docker configuration file
+├── eslint.config.ts        # ESLint configuration
+├── jest.config.ts          # Jest configuration
+├── LICENSE                 # Project license
+├── package.json            # Project dependencies and scripts
+├── README.md               # File with information about the project (what you are reading right now 👀)
+└── tsconfig.json           # TypeScript configuration
 ```
 
 ## Testing
