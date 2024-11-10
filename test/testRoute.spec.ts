@@ -1,8 +1,8 @@
+import { formatResponse } from '../src/utils/responseFormatter';
+import app from '../src/app';
 import request from 'supertest';
-import app from '../app';
-import { formatResponse } from '../utils/responseFormatter';
 
-jest.mock('../utils/responseFormatter', () => ({
+jest.mock('../src/utils/responseFormatter', () => ({
 	formatResponse: jest.fn(),
 }));
 
